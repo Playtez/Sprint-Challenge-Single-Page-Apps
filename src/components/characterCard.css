@@ -6,12 +6,24 @@
     width: 150px;
 } */
 
-
-/* 
 .character-list {
     display: flex;
-    flex-flow: wrap;
     justify-content: center;
     align-items: center;
-    background-color: red;
-} */
+    text-align: center;
+    background-color: lightgrey;
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+input {
+    border-radius: 15px;
+    background-color: lightgrey;
+}

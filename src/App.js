@@ -17,8 +17,12 @@ const App = () => {
       <Router>
         <div>
           <nav className="main-nav">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/character">Character</NavLink>
+            <NavLink className="navlink" to="/">
+              Home
+            </NavLink>
+            <NavLink className="navlink" to="/character">
+              Character
+            </NavLink>
           </nav>
           <Switch>
             <Route exact path="/" component={WelcomePage} />

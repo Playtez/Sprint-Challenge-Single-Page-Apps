@@ -49,11 +49,10 @@ const CharacterCard = () => {
                 <CardTitle>
                   <h3> {data.name}</h3>
                 </CardTitle>
-                <CardSubtitle>species: {data.species}</CardSubtitle>
-                <CardText>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </CardText>
+                <CardSubtitle>Species: {data.species}</CardSubtitle>
+                <CardSubtitle>Alive? {data.status}</CardSubtitle>
+                <CardSubtitle>ID #: {data.id}</CardSubtitle>
+                <CardText>Thanks for checking out my Card.</CardText>
               </CardBody>
             </Card>
           </div>
