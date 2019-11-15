@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function WelcomePage() {
+const WelcomePage = () => {
   return (
     <section className="welcome-page">
       <header>
@@ -13,4 +13,6 @@ export default function WelcomePage() {
       </header>
     </section>
   );
-}
+};
+
+export default WelcomePage;
